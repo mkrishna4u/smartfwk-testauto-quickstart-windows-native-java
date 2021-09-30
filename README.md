@@ -1,0 +1,1 @@
+# smartfwk-testauto-quickstart-windows-native-java
