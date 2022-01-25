@@ -13,5 +13,5 @@ public interface ToggleMenuPO {
 	LabelSD Menu_Standard = new LabelSD("Standard Menu")
 			.addPlatformLocatorForNativeApp(PlatformType.windows, LocateBy.AccessibilityId, "Standard");
 	LabelSD Menu_Scientific = new LabelSD("Scientific Menu")
-			.addPlatformLocatorForNativeApp(PlatformType.windows, LocateBy.AccessibilityId, "Standard");
+			.addPlatformLocatorForNativeApp(PlatformType.windows, LocateBy.AccessibilityId, "Scientific");
 }

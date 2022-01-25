@@ -7,17 +7,17 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 	
 /**
- * 
+ * Test runner class to run all test cases
  * @author Ajita Krishna
  *
  */
 @CucumberOptions(
 	features = {
 			"cucumber-testcases/features/ui/home" }, 
-	plugin = {"pretty", "json:test-results/cucumber-reports/json/StandardCalculatorTest-results.json"}, 
+	plugin = {"pretty", "json:test-results/cucumber-reports/json/StandardCalculator-TestResults.json"}, 
 	glue = {"stepdefs.features.ui.home" }
 	)
 @Listeners(TestNGExecutionListener.class)
-public class StandardCalculatorTest extends AbstractTestNGCucumberTests {
+public class TestRunner extends AbstractTestNGCucumberTests {
 	
 }

@@ -13,9 +13,9 @@ Feature: Verify Standard calculator functionality.
 		Then The <Result> is displayed on result textbox.		
 		Examples:
 			| Number1 | Operator | Number2 | Result |
-			| 34      | '+'      | 56      | 90     |
+			| 34      | '+'      | 56      | 80     |
 			| 64      | '+'      | 156     | 220    |
-			| 50      | '*'      | 10      | 500    |
+			| 50      | '*'      | 10      | 50    |
 			
 	
 	

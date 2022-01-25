@@ -7,7 +7,7 @@ This is a maven based quickstart project to start working on sofwtare testing au
 This project is using following software tools:
 
 	> Windows Application Driver: Download URL - https://github.com/microsoft/WinAppDriver: This is a driver that communicates with application to perform operations like click, typeText etc.
-	> Windows SDK: Download - https://developer.microsoft.com/en-us/windows/downloads/windows-10-sdk/ : This is used to inspect the elements on windows application.
+	> Windows SDK: Download - https://developer.microsoft.com/en-us/windows/downloads/windows-10-sdk/ : This is used to inspect the elements on windows application. Use platform specific "inspect.exe" file to inspect the elements on the application.
 	> Java JDK: Download URL - http://jdk.java.net/ : Used to compile and run Java code.
 	> Apache Maven: Download URL - https://maven.apache.org/download.cgi : Used as a build tool to setup project dependencies, compile code and run testcases.
 	
